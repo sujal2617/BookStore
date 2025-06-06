@@ -52,6 +52,7 @@ cd book_backend
 
 npm install
 
+
 4. Configure environment variables
 
 Create a .env file in the root folder and add your MongoDB URI:
@@ -60,19 +61,19 @@ mongo_url=mongodb+srv://<username>:<password>@cluster.mongodb.net/<dbname>?retry
 PORT=5000
 Replace <username>, <password>, and <dbname> with your actual MongoDB Atlas credentials.
 
-4. Start the server
+5. Start the server
 
 npm start
 Server will run at http://localhost:5001
 
-##📬 API Endpoints
+📬 API Endpoints
 
 GET	/api/books	Get all books
 POST	/api/books	Add a new book
 PUT	/api/books/:id	Update book by ID
 DELETE	/api/books/:id	Delete book by ID
 
-##✅ Sample POST Request Body
+✅ Sample POST Request Body
 
 {
   "title": "test",
