@@ -24,20 +24,16 @@ This API allows users to create, read, update, and delete (CRUD) book records.
 ## 📁 Folder Structure
 
 book_backend/
-│
-├── models/ # Mongoose schema (Book)
-│ └── book.model.js
-│
-├── controllers/ # Controller logic for routes
-│ └── book.controller.js
-│
-├── routes/ # API route definitions
-│ └── book.routes.js
-│
-├── app.js # Main application file
-├── .env # Environment variables
-├── package.json # Project metadata & scripts
-└── README.md
+ models/ # Mongoose schema (Book)
+   book.model.js│
+ controllers/ # Controller logic for routes
+   book.controller.js
+ routes/ # API route definitions
+   book.routes.js
+ app.js # Main application file
+ .env # Environment variables
+ package.json # Project metadata & scripts
+ README.md
 
 
 ## ⚙️ Setup Instructions
