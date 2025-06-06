@@ -65,17 +65,15 @@ Replace <username>, <password>, and <dbname> with your actual MongoDB Atlas cred
 npm start
 Server will run at http://localhost:5001
 
-📬 API Endpoints
+##📬 API Endpoints
 
 GET	/api/books	Get all books
 POST	/api/books	Add a new book
 PUT	/api/books/:id	Update book by ID
 DELETE	/api/books/:id	Delete book by ID
 
-✅ Sample POST Request Body
-json
-Copy
-Edit
+##✅ Sample POST Request Body
+
 {
   "title": "test",
   "author": "sujal pattewar",
