@@ -4,7 +4,6 @@ A simple RESTful API for managing a collection of books, built using **Node.js**
 
 This API allows users to create, read, update, and delete (CRUD) book records.
 
---------------------------------------------------------------------------------------------------------------------
 
 ## 🚀 Features
 
@@ -13,7 +12,7 @@ This API allows users to create, read, update, and delete (CRUD) book records.
 - Update a book by ID
 - Delete a book by ID
 
---------------------------------------------------------------------------------------------------------------------
+
 
 ## 🛠 Tech Stack
 
@@ -21,7 +20,6 @@ This API allows users to create, read, update, and delete (CRUD) book records.
 - **Database**: MongoDB (via Mongoose)
 - **Tools**: Nodemon, dotenv, CORS, body-parser
 
---------------------------------------------------------------------------------------------------------------------
 
 ## 📁 Folder Structure
 
@@ -41,11 +39,6 @@ book_backend/
 ├── package.json # Project metadata & scripts
 └── README.md
 
-yaml
-Copy
-Edit
-
---------------------------------------------------------------------------------------------------------------------
 
 ## ⚙️ Setup Instructions
 
@@ -59,9 +52,8 @@ cd book_backend
 
 npm install
 
-
 4. Configure environment variables
-5. 
+
 Create a .env file in the root folder and add your MongoDB URI:
 
 mongo_url=mongodb+srv://<username>:<password>@cluster.mongodb.net/<dbname>?retryWrites=true&w=majority
