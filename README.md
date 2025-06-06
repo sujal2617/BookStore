@@ -44,7 +44,7 @@ book_backend/
 
 1. Clone the repository
 
-git clone https://github.com/YOUR_USERNAME/book_backend.git
+git clone https://github.com/sujal2617/BookStore.git
 cd book_backend
 
 
